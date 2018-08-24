@@ -1,23 +1,17 @@
 <!doctype html>
   <html>
     <head>
+      <title>Cat Clicker</title>
+      <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
-
-    <div id='kitten'>
-        <img src="kitten.jpg" height=200 class='catPhoto'>
-        <h1>
-          <i class='kitten'></i> Clicks:<i id='kittenClicks'>0</i>
-        </h1>
-    </div>
-
-  <div id='hiddenCat'>
-      <img src="hidden-cat.jpg" height=200 class='catPhoto'>
-      <h1>
-        <i class='hiddenCat'></i> Clicks:<i id='hiddenCatClicks'>0</i>
-      </h1>
-  </div>
-
+      <ul id='catList'>
+      </ul>
+      <div id='cat'>
+        <h1 id='catName'></h1>
+        <div id='catCount'></div>
+        <img id='catImage' src=''>
+      </div>
       <script src=app.js></script>
     </body>
   </html>
